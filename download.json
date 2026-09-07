@@ -1,8 +1,8 @@
 {
-  "version": "0.17.4",
+  "version": "0.17.5",
   "channel": "stable",
-  "pubDate": "2026-09-06",
-  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v0.17.4",
+  "pubDate": "2026-09-07",
+  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v0.17.5",
   "format": "dmg",
   "platforms": [
     {
@@ -10,11 +10,11 @@
       "os": "macOS",
       "arch": "aarch64",
       "ext": "DMG",
-      "file": "Starry_0.17.4_aarch64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.4/Starry_0.17.4_aarch64.dmg",
+      "file": "Starry_0.17.5_aarch64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.5/Starry_0.17.5_aarch64.dmg",
       "mirrors": [],
-      "sizeBytes": 74502493,
-      "sha256": "25b701c69b226aec72fec06995c06518e98b430ea9eac5d079a088c21495a5f8",
+      "sizeBytes": 72678358,
+      "sha256": "9e285e67c431ae5805b99372dae9b132f319ee47b997b5a1d04e8081bfe42f85",
       "recommended": true
     },
     {
@@ -22,11 +22,11 @@
       "os": "macOS",
       "arch": "x64",
       "ext": "DMG",
-      "file": "Starry_0.17.4_x64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.4/Starry_0.17.4_x64.dmg",
+      "file": "Starry_0.17.5_x64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.5/Starry_0.17.5_x64.dmg",
       "mirrors": [],
-      "sizeBytes": 57737150,
-      "sha256": "d6a99d50bc38c51d0dde983bdbb2ffef69e658587d43a90f6359b85d279fc417",
+      "sizeBytes": 78842721,
+      "sha256": "911e09d8bc6fe42454df4519c4295748c9c9d6ca683ee537d9fb37ea84393a06",
       "recommended": false
     },
     {
@@ -34,11 +34,11 @@
       "os": "Windows",
       "arch": "x64",
       "ext": "EXE",
-      "file": "Starry_0.17.4_x64-setup.exe",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.4/Starry_0.17.4_x64-setup.exe",
+      "file": "Starry_0.17.5_x64-setup.exe",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.5/Starry_0.17.5_x64-setup.exe",
       "mirrors": [],
-      "sizeBytes": 69107938,
-      "sha256": "762ce5932341e1651bb098d56d685b7a469d9c5d34c6a37f50e5066edd087539",
+      "sizeBytes": 68981475,
+      "sha256": "143bf87c596721799225181fd71b5da6fb3b1825050167f18801ebb4a46898f3",
       "recommended": false
     }
   ],
