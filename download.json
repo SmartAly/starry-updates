@@ -1,8 +1,8 @@
 {
-  "version": "0.17.7",
+  "version": "0.17.10",
   "channel": "stable",
-  "pubDate": "2026-09-09",
-  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v0.17.7",
+  "pubDate": "2026-09-11",
+  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v0.17.10",
   "format": "dmg",
   "platforms": [
     {
@@ -10,11 +10,11 @@
       "os": "macOS",
       "arch": "aarch64",
       "ext": "DMG",
-      "file": "Starry_0.17.7_aarch64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.7/Starry_0.17.7_aarch64.dmg",
+      "file": "Starry_0.17.10_aarch64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.10/Starry_0.17.10_aarch64.dmg",
       "mirrors": [],
-      "sizeBytes": 72680780,
-      "sha256": "4b2ae5fd4db409a9d9191cbe7c77e2dbbc7e6c7c72b84bbcf82812bb9b44baf1",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "recommended": true
     },
     {
@@ -22,27 +22,16 @@
       "os": "macOS",
       "arch": "x64",
       "ext": "DMG",
-      "file": "Starry_0.17.7_x64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.7/Starry_0.17.7_x64.dmg",
+      "file": "Starry_0.17.10_x64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.10/Starry_0.17.10_x64.dmg",
       "mirrors": [],
-      "sizeBytes": 76257593,
-      "sha256": "5abe5852a34cd3d2d92f8174bc150da39500c577737629921787e8d95f79b739",
-      "recommended": false
-    },
-    {
-      "id": "windows-x64",
-      "os": "Windows",
-      "arch": "x64",
-      "ext": "EXE",
-      "file": "Starry_0.17.7_x64-setup.exe",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.7/Starry_0.17.7_x64-setup.exe",
-      "mirrors": [],
-      "sizeBytes": 68976871,
-      "sha256": "320c4f227c937fff894b086ff1d2ba83edb77e9bd40b556b5ac95d1ad8dc5559",
+      "sizeBytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "recommended": false
     }
   ],
   "upcoming": [
+    "windows-x64",
     "linux-x64"
   ]
 }
