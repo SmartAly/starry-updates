@@ -13,8 +13,8 @@
       "file": "Starry_0.17.10_aarch64.dmg",
       "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.10/Starry_0.17.10_aarch64.dmg",
       "mirrors": [],
-      "sizeBytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 59664617,
+      "sha256": "8b97f9894535d07459286b2bb772a7bebe047ef1aaaf4ea839a13e6d91c07116",
       "recommended": true
     },
     {
@@ -25,8 +25,8 @@
       "file": "Starry_0.17.10_x64.dmg",
       "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.10/Starry_0.17.10_x64.dmg",
       "mirrors": [],
-      "sizeBytes": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "sizeBytes": 76271866,
+      "sha256": "b3a2aa5686a3e91fce2c623dd1c27d0ac0031144467dc9fe50e73ae61df5c7f3",
       "recommended": false
     }
   ],
