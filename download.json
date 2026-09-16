@@ -1,8 +1,8 @@
 {
-  "version": "0.17.11",
+  "version": "0.17.12",
   "channel": "stable",
-  "pubDate": "2026-09-13",
-  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v0.17.11",
+  "pubDate": "2026-09-16",
+  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v0.17.12",
   "format": "dmg",
   "platforms": [
     {
@@ -10,11 +10,11 @@
       "os": "macOS",
       "arch": "aarch64",
       "ext": "DMG",
-      "file": "Starry_0.17.11_aarch64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.11/Starry_0.17.11_aarch64.dmg",
+      "file": "Starry_0.17.12_aarch64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.12/Starry_0.17.12_aarch64.dmg",
       "mirrors": [],
-      "sizeBytes": 74766777,
-      "sha256": "4630a53ca98c4b79a99c7e3bb2302d2488c566db9d1665f1674de77aef8e2aec",
+      "sizeBytes": 74745737,
+      "sha256": "bb660c9a1e6ba5ee63a035b70297df38192b9a7b95984127a4121894b7382c14",
       "recommended": true
     },
     {
@@ -22,11 +22,11 @@
       "os": "macOS",
       "arch": "x64",
       "ext": "DMG",
-      "file": "Starry_0.17.11_x64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.11/Starry_0.17.11_x64.dmg",
+      "file": "Starry_0.17.12_x64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.12/Starry_0.17.12_x64.dmg",
       "mirrors": [],
-      "sizeBytes": 76440203,
-      "sha256": "3bce68252c460d254ee29235b49557dddcb7e8719b2b789a9f5bf2b14fdbf54e",
+      "sizeBytes": 76380100,
+      "sha256": "cb3c1ef2eca80d0bde0f27f415a03bdb7c4378ca344e6a5162a940c2c7470769",
       "recommended": false
     }
   ],
