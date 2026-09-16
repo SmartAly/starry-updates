@@ -28,10 +28,21 @@
       "sizeBytes": 76380100,
       "sha256": "cb3c1ef2eca80d0bde0f27f415a03bdb7c4378ca344e6a5162a940c2c7470769",
       "recommended": false
+    },
+    {
+      "id": "windows-x64",
+      "os": "Windows",
+      "arch": "x64",
+      "ext": "EXE",
+      "file": "Starry_0.17.12_x64-setup.exe",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v0.17.12/Starry_0.17.12_x64-setup.exe",
+      "mirrors": [],
+      "sizeBytes": 69178373,
+      "sha256": "38e145c15e36a87eaab699cb0aa1fad99019837cc98abf7bf437585892624dc1",
+      "recommended": false
     }
   ],
   "upcoming": [
-    "windows-x64",
     "linux-x64"
   ]
 }
