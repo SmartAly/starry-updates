@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0-beta.3",
+  "version": "1.1.0",
   "channel": "stable",
-  "pubDate": "2026-09-29",
-  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v1.0.0-beta.3",
+  "pubDate": "2026-10-08",
+  "releaseUrl": "https://github.com/SmartAly/starry-updates/releases/tag/v1.1.0",
   "format": "dmg",
   "platforms": [
     {
@@ -10,11 +10,11 @@
       "os": "macOS",
       "arch": "aarch64",
       "ext": "DMG",
-      "file": "Starry_1.0.0-beta.3_aarch64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.0.0-beta.3/Starry_1.0.0-beta.3_aarch64.dmg",
+      "file": "Starry_1.1.0_aarch64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.1.0/Starry_1.1.0_aarch64.dmg",
       "mirrors": [],
-      "sizeBytes": 85540828,
-      "sha256": "e45b9b94bb3e0c15871429dc38e9a0396701e2c2b4e4457b49df7b0fe38892b0",
+      "sizeBytes": 86471686,
+      "sha256": "fee42336a842f080e06a539e0481fab5dd79ecab26cb0e65cec2e9f49a0656e0",
       "recommended": true
     },
     {
@@ -22,11 +22,11 @@
       "os": "macOS",
       "arch": "x64",
       "ext": "DMG",
-      "file": "Starry_1.0.0-beta.3_x64.dmg",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.0.0-beta.3/Starry_1.0.0-beta.3_x64.dmg",
+      "file": "Starry_1.1.0_x64.dmg",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.1.0/Starry_1.1.0_x64.dmg",
       "mirrors": [],
-      "sizeBytes": 87303413,
-      "sha256": "e638867da75edf2291c44d73a8c851959b2f60f3865ff8e9d407c9e325d977cd",
+      "sizeBytes": 87346733,
+      "sha256": "5840379997577d7fab067a3e13b57fb93afd83b9663d7f6cabfe1506d2f7de9c",
       "recommended": false
     },
     {
@@ -34,11 +34,11 @@
       "os": "Windows",
       "arch": "x64",
       "ext": "EXE",
-      "file": "Starry_1.0.0-beta.3_x64-setup.exe",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.0.0-beta.3/Starry_1.0.0-beta.3_x64-setup.exe",
+      "file": "Starry_1.1.0_x64-setup.exe",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.1.0/Starry_1.1.0_x64-setup.exe",
       "mirrors": [],
-      "sizeBytes": 80205194,
-      "sha256": "df50bb3247f8a6755a672933f68cd24a81aa0988841bb5046be4e93e5ad17b58",
+      "sizeBytes": 80269317,
+      "sha256": "1f5cf4a548037bec2e0c846775b3ce7d7d597bc9b55dd589459faf8ec2940f10",
       "recommended": false
     },
     {
@@ -46,23 +46,11 @@
       "os": "Linux",
       "arch": "x64",
       "ext": "DEB",
-      "file": "Starry_1.0.0-beta.3_amd64.deb",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.0.0-beta.3/Starry_1.0.0-beta.3_amd64.deb",
+      "file": "Starry_1.1.0_amd64.deb",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.1.0/Starry_1.1.0_amd64.deb",
       "mirrors": [],
-      "sizeBytes": 94870116,
-      "sha256": "6c1c57abcd91c53113f4f3c820ac21af8e84478fff009fe8c4aaf4d8fb9c54bd",
-      "recommended": false
-    },
-    {
-      "id": "linux-x64-appimage",
-      "os": "Linux",
-      "arch": "x64",
-      "ext": "AppImage",
-      "file": "Starry_1.0.0-beta.3_amd64.AppImage",
-      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.0.0-beta.3/Starry_1.0.0-beta.3_amd64.AppImage",
-      "mirrors": [],
-      "sizeBytes": 168229368,
-      "sha256": "698977504951931139b5323f269e3e658001b874b51e609c5d457cfe717d6342",
+      "sizeBytes": 94907000,
+      "sha256": "02f24a741a392d0d846b2baeca7078a8573409071332d114d361863679505937",
       "recommended": false
     }
   ],
