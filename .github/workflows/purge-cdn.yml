@@ -1,0 +1,47 @@
+name: Purge jsDelivr CDN
+
+# 根因修复：starry-updates 每次更新 download.json 后，jsDelivr CDN 不会自动回源，
+# 导致官网下载页自动检查一直拉到旧版本（beta.1→beta.3→v1.2.0 三次都没 purge）。
+# 本工作流在 download.json 变更 / 新 release 发布时自动 purge CDN，无需人工干预。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - download.json
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache for download.json
+        env:
+          PURGE_URL: "https://purge.jsdelivr.net/gh/SmartAly/starry-updates@main/download.json"
+          CDN_URL: "https://cdn.jsdelivr.net/gh/SmartAly/starry-updates@main/download.json"
+        run: |
+          set -uo pipefail
+          echo "Purging jsDelivr cache: $PURGE_URL"
+          ok=0
+          for i in 1 2 3; do
+            echo "  attempt $i"
+            if curl -fsS -X GET "$PURGE_URL"; then
+              echo "  purge request accepted"
+              ok=1
+              break
+            fi
+            sleep 5
+          done
+          if [ "$ok" -ne 1 ]; then
+            echo "::warning::jsDelivr purge failed after 3 attempts; CDN may still serve a stale version"
+          fi
+
+          echo "Verifying CDN now reflects latest download.json (edge propagation may lag a few seconds)..."
+          sleep 12
+          echo "  CDN response (first 240 bytes):"
+          curl -fsS "$CDN_URL" 2>/dev/null | head -c 240 || echo "  (could not fetch CDN for verification)"
