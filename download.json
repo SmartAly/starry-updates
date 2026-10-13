@@ -52,6 +52,18 @@
       "sizeBytes": 94921170,
       "sha256": "9f041a560ff7b5d6117d8b8ff7f0018bc704725a51b4babbc1477fc0598792ea",
       "recommended": false
+    },
+    {
+      "id": "linux-x64-appimage",
+      "os": "Linux",
+      "arch": "x64",
+      "ext": "AppImage",
+      "file": "Starry_1.2.0_amd64.AppImage",
+      "url": "https://github.com/SmartAly/starry-updates/releases/download/v1.2.0/Starry_1.2.0_amd64.AppImage",
+      "mirrors": [],
+      "sizeBytes": 168274424,
+      "sha256": "",
+      "recommended": false
     }
   ],
   "upcoming": []
